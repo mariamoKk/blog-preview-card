@@ -1,0 +1,70 @@
+body {
+    background-color: #f4d04e;
+    display: flex;
+}
+@font-face {
+    font-family: 'Figtree';
+    src: url('fonts/Figtree-VariableFont_wght.ttf');
+}
+.card {
+    width: 327px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 #000;
+    background-color: #fff;
+    border : solid 1px #111;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.card-image{
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.category{
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5;
+    background-color: #f4d04e;
+    border-radius: 4px;
+    padding: 4px 12px;
+    margin-bottom: 12px;
+}
+.publish-date{
+    display: block;
+    margin-top: 12px;
+    font-family: 'Figtree';
+    font-size: 12px;
+    font-weight: 500;
+}
+.card-title{
+    font-family: 'Figtree';
+    font-size: 20px;
+    font-weight:800;
+    line-height:1.5;
+    color: #111;
+    margin: 14px 0;
+}
+.card-description {
+    font-family: 'Figtree';
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #6b6b6b;
+    margin-bottom: 16px;
+}
+.author-img{
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.author-name{
+    width: 85px;
+    font-size: 14px;
+    font-weight: 800;
+}
+.attribution{
+   bottom: 0;
+   position: absolute;
+}
+

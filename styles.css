@@ -1,6 +1,9 @@
 body {
     background-color: #f4d04e;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 @font-face {
     font-family: 'Figtree';
